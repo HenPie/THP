@@ -1,0 +1,157 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 14px;
+  align-items: center;
+}
+
+#navbar a {
+  font-size: 12px;
+  display: inline-block;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 5px 7px;
+}
+
+#navbar img {
+  width: 30px;
+  padding: 5px;
+  margin: auto 6px;
+}
+
+#navbar button {
+  background: #4285f4;
+  color: #fff;
+  border: 1px solid #4285f4;
+  border-radius: 3px;
+  padding: 7px 10px;
+  margin-left: 6px;
+  outline: none;
+}
+
+.section1 {
+ flex: 1;
+}
+
+.logo {
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+}
+
+.share {
+  display: block;
+  margin: auto;
+  padding-left: 454px;
+  margin-top: -35px;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+.section1-box {
+  width: 600px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: -8px;
+  text-align: center;
+}
+
+.content-search {
+  display: block;
+  border: 1px solid #ddd;
+  color: rgba(0,0,0, 0.85);
+  font-size: 16px;
+  padding: 13px;
+  padding-left: 45px;
+  border-radius: 25px;
+  width: 99%;
+  outline: none;
+}
+
+.content-search:hover {
+  border: 1px solid #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search {
+  width: 35px;
+  opacity: .6;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+}
+
+.mic {
+  width: 35px;
+  position: absolute;
+  top: 5px;
+  right: 19px;
+}
+
+.section1-btn {
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  color: #666;
+  font-size: 14px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 28px;
+  outline: none;
+}
+
+.section1-btn:hover {
+  border: 1px solid #aaa;
+}
+
+footer {
+  background: #f2f2f2;
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+}
+footer h4 {
+  color: rgba(0,0,0, 0.54);
+  font-size: 15px;
+  line-height: 39.5px;
+  font-weight: 400;
+  padding-left: 29px;
+  border: 1px solid #eee;
+}
+footer a {
+  color: #5f6368;
+  display: inline-block;
+  padding: 12px 11.3px;
+  font-size: 14px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+.liens {
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 18.7px;
+  padding-right: 18.7px;
+}
+
+.liens-left {
+  flex: 1;
+}
+
+.liens-right {
+  flex: 1;
+}
